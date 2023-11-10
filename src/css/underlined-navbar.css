@@ -2,6 +2,10 @@
     color: black;
 }
 
+.nav {
+    margin-top: 1%;
+}
+
 .nav-link {
     color: black;
     font-family: QuicksandBold;
@@ -15,7 +19,7 @@
     content: "";
     display: block;
     margin: auto;
-    height: 12%;
+    height: 13%;
     border-radius: 3px;
     width: 100%;
     background: #ff7002;

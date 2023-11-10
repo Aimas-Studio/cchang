@@ -1,4 +1,12 @@
 .onlytexto{
-    font-family: Quicksand;
     font-size: 1vw;
+}
+
+.bold-text-container {
+    margin-top: 6%;
+    margin-bottom: 0%;
+}
+
+.bold-onlytexto {
+    margin-bottom: 1%;
 }

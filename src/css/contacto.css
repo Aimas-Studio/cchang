@@ -10,7 +10,7 @@
 
 .contacto-text {
     font-family: QuicksandBold;
-    font-size: 1.7vw;
+    font-size: 1.2vw;
 }
 
 .contacto-logos-container {
@@ -20,5 +20,5 @@
 
 .logos {
     margin: 1% 2%;
-    width: 25%;
+    width: 3vw;
 }

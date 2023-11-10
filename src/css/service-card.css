@@ -1,0 +1,33 @@
+.service-card-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.service-card-container {
+    width: 45%;
+    border-radius: 12px;
+    padding: 4% 6%;
+}
+
+.service-image-container {
+    width: 30%;
+    height: auto;
+}
+
+.service-image {
+    width: 100%;
+}
+
+.service-text-container {
+    font-size: 0.7vw;
+    color: #fff;
+    width: 62%;
+}
+
+.service-text {
+    margin: 0;
+}

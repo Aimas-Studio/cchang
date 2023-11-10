@@ -48,6 +48,10 @@ code {
     monospace;
 }
 
+*{
+  font-family: Quicksand;
+}
+
 .all-pages-container {
   margin: 1% 2.5% 25% 5%;
 }
