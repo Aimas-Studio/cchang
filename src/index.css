@@ -1,3 +1,40 @@
+
+@font-face {
+  font-display: block;
+  font-family: Quicksand;
+  src: url(./css/fonts/Quicksand/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: QuicksandBold;
+  src: url(./css/fonts/Quicksand/Quicksand-Bold.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: QuicksandLight;
+  src: url(./css/fonts/Quicksand/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: QuicksandSemiBold;
+  src: url(./css/fonts/Quicksand/Quicksand-SemiBold.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: QuicksandVariable;
+  src: url(./css/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: QuicksandMedium;
+  src: url(./css/fonts/Quicksand/Quicksand-Medium.ttf);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +48,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
