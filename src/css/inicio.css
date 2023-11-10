@@ -1,0 +1,17 @@
+.columns-container {
+    display: flex;
+}
+
+.col-0 {
+    width: 5.5%;
+}
+
+.col-4ymedio {
+    width: 40.5%;
+    flex: 0 0 auto;
+}
+
+.col-6ymedio {
+    width: 54%;
+    flex: 0 0 auto;
+}

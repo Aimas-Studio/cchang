@@ -1,0 +1,38 @@
+--bs-nav-link-hover-color {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    font-family: QuicksandBold;
+    font-size: 1.5vw;
+    position: relative;
+    margin: auto 5% auto 0%;
+    padding-left: 0%;
+}
+
+.nav-link.active:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 12%;
+    border-radius: 3px;
+    width: 100%;
+    background: #ff7002;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0, 0.537);
+}
+
+.nav-link:focus {
+    color: black;
+}
+
+.nav-link-blue.active:after {
+    background: #0907cb;
+    width: 140%;
+}
