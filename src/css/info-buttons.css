@@ -1,0 +1,28 @@
+.info-buttons-container {
+    margin: 7% 0 10% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-button {
+    border: none;
+    background-color: #929292;
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    font-size: 0.8vw;
+    padding: 1.5% 6%;
+}
+
+.site-button:hover{
+    background-color: #929292c0;
+}
+
+.short-button {
+    font-family: QuicksandVariable;
+    font-weight: 600;
+}
+
+.large-button {
+    padding-right: 12%;
+    font-size: 0.8vw;
+}

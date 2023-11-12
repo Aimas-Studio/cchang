@@ -9,8 +9,10 @@
 }
 
 .contacto-text {
-    font-family: QuicksandBold;
+    font-family: QuicksandVariable;
+    font-weight: 1000;
     font-size: 1.2vw;
+    margin: 0 0 7% 0;
 }
 
 .contacto-logos-container {

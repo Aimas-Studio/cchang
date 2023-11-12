@@ -1,6 +1,8 @@
 .project-card-container {
     width: 100%;
     background-color: #fff;
+    box-shadow: 0px 2px 12px #95989a67;
+    border-radius: 4px;
 }
 
 .project-image {

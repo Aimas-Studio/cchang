@@ -4,9 +4,20 @@ function InfoButtons() {
   return (
     <div className="info-buttons-container">
       <button
-        className="vermas-button" 
+        onClick={() =>
+          window.open(
+            
+          )
+        }
+        className="site-button short-button"
       >
         VER MÁS
+      </button>
+      <button
+        onClick={() => window.open()}
+        className="site-button large-button"
+      >
+        OTROS PROYECTOS
       </button>
     </div>
   );
