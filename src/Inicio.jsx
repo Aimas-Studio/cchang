@@ -1,12 +1,11 @@
 import ImageHeader from "./components/image-header";
-import Contacto from "./components/contacto";
 import UnderlinedNavBar from "./components/navbar";
 import UnderlinedSingleNavBar from "./components/single-navbar";
 import HeaderText from "./components/header-text";
 import "./css/inicio.css";
 import OnlyText from "./components/onlytext";
 import BoldText from "./components/bold-text";
-import ServiceCard from "./components/service-card";
+import ServiciosContainer from "./components/servicios-container";
 
 function Inicio() {
   return (
@@ -43,13 +42,8 @@ function Inicio() {
           {/* ----------- TERCERA COLUMNA ------------*/}
           <div className="col-4ymedio">
             <UnderlinedSingleNavBar />
-            <ServiceCard
-              backgrColor='#2297FE'
-              imagePath={require(`./images/electricidad.png`)}
-              text='INSTALACIÓN, REPARACIÓN Y MANTENIMIENTO DE '
-              title='SISTEMAS ELÉCTRICOS'
-            />
-            <Contacto />
+            <ServiciosContainer/>
+            
           </div>
         </div>
       </div>

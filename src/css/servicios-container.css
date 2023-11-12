@@ -1,0 +1,12 @@
+.two-cols-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6%;
+    width: 100%;
+}
+
+.project-contacto-container {
+    width: 45%;
+    margin-right: 4%;
+}

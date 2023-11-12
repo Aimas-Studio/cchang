@@ -8,9 +8,13 @@
 }
 
 .service-card-container {
-    width: 45%;
+    width: 100%;
     border-radius: 12px;
-    padding: 4% 6%;
+    padding: 3% 2% 3% 5%;
+    margin: 1% 0%;
+    height: 7vw;
+    display: flex;
+    justify-content: center;
 }
 
 .service-image-container {
@@ -19,13 +23,13 @@
 }
 
 .service-image {
-    width: 100%;
+    width: 85%;
 }
 
 .service-text-container {
     font-size: 0.7vw;
     color: #fff;
-    width: 62%;
+    width: 70%;
 }
 
 .service-text {

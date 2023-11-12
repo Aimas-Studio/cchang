@@ -1,0 +1,10 @@
+.small-number {
+    font-size: 0.6vw;
+    margin:0;
+    color: #95989A;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+}
