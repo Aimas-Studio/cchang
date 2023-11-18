@@ -1,6 +1,7 @@
 import "../css/underlined-navbar.css";
 import React, { useState } from "react";
 
+
 function UnderlinedNavBar() {
   //Cambiar el estado de la barra naranja
   const [activeLink, setActiveLink] = useState("SOBRE LA EMPRESA");
@@ -10,7 +11,7 @@ function UnderlinedNavBar() {
   };
 
   return (
-    <nav className="nav">
+    <nav className="nav main-nav">
       <a
         className={`nav-link ${
           activeLink === "SOBRE LA EMPRESA" ? "active" : ""

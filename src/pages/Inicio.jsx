@@ -1,11 +1,11 @@
-import ImageHeader from "./components/image-header";
-import UnderlinedNavBar from "./components/navbar";
-import UnderlinedSingleNavBar from "./components/single-navbar";
-import HeaderText from "./components/header-text";
-import "./css/inicio.css";
-import OnlyText from "./components/onlytext";
-import BoldText from "./components/bold-text";
-import ServiciosContainer from "./components/servicios-container";
+import ImageHeader from "../components/image-header";
+import UnderlinedNavBar from "../components/navbar";
+import UnderlinedSingleNavBar from "../components/single-navbar";
+import HeaderText from "../components/header-text";
+import OnlyText from "../components/onlytext";
+import BoldText from "../components/bold-text";
+import ServiciosContainer from "../components/servicios-container";
+import "../css/inicio.css";
 
 function Inicio() {
   return (

@@ -1,0 +1,15 @@
+.proyectos-col8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 69%;
+}
+
+.main-nav {
+    width: 55%;
+}
+
+.carousel-col {
+    margin-top: 4%;
+    width: 69%;
+}

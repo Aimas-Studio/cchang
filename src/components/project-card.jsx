@@ -1,12 +1,14 @@
+import React, { forwardRef } from "react";
+
 import "../css/project-card.css";
 import RatingNumber from "./rating-number-container";
 
-function ProjectCard({ image, text, day, month, year, ratingValue, number }) {
+const ProjectCard = forwardRef(({ image, text, day, month, year, ratingValue, number }, ref) => {
   return (
-    <div className="project-card-container">
+    <div className="project-card-container" ref={ref}>
       <img 
         className="project-image"
-        src={image} 
+        src={require(`../images/${image}.png`)} 
         alt="Project Image"
       />
       <div className="project-info-container">
@@ -22,12 +24,12 @@ function ProjectCard({ image, text, day, month, year, ratingValue, number }) {
           <RatingNumber
             ratingValue={ratingValue}
             number={number}
-
           />            
         
         </div>
       </div>
     </div>
   );
-}
+});
+
 export default ProjectCard;

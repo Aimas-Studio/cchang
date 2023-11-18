@@ -1,0 +1,26 @@
+.serv-image-but {
+    width: 100%;
+}
+
+.img-nav {
+    margin-bottom: 0%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.categ-image {
+    width: calc(var(--bs-nav-link-padding-y) + 2* 1.3vw);
+    margin-left: 4%;
+
+}
+.cat-image-container {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-end;
+    margin-bottom: 0.5%;
+    width: 45%;
+}
