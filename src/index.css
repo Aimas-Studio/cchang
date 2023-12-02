@@ -56,3 +56,7 @@ code {
 .all-pages-container {
   margin: 1% 2.5% 4% 5%;
 }
+
+.flex {
+  display: flex;
+}
