@@ -1,5 +1,2 @@
-Install swiper (npm i swiper) 
-Install react-router (npm i react-router-dom)
-
-Fix Carousel
-
+Flecha del Carrusel no se ubica donde debe ir. Encontrar una solución
+Botones de servicios no cambian de color ante clic. Implementarlo
