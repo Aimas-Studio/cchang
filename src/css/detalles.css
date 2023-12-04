@@ -1,0 +1,110 @@
+.row>.sec-col>* {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+.row>.third-col>* {
+    padding-left: calc(var(--bs-gutter-x) * 1);
+}
+.row>.col>* {
+    padding-left: calc(var(--bs-gutter-x) * 4.8);
+}
+
+.backmenu-container {
+    width: 28%;
+}
+
+.arrow-title {
+    display: flex;
+    justify-content: baseline;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.back-text {
+    color: black;
+    text-decoration: none;
+    font-family: QuicksandBold;
+    font-size: 1.4vw;
+}
+
+.arrow-image {
+    width: 70%;
+}
+
+.details-text {
+    font-size: 1.5vw;
+    margin-top: 5%;
+}
+
+.sec-col {
+    flex: 0 0 auto;
+    width: 22%;
+}
+
+.third-col {
+    flex: 0 0 auto;
+    width: 22.3%;
+}
+
+.remod-image {
+    width: 100%;
+}
+
+.valoracion{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.valoracion-text {
+    font-size: 1.3vw;
+    margin-bottom: 0;
+}
+
+.containerimg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 9%;
+}
+  
+.detalles-container .projectImagePrev {
+    height: auto;
+}
+.detalles-container{
+    width: 100%;
+}
+
+.projectImagePrev-cont
+{
+  width: 100%;
+}
+
+.image4 {
+    width: 100%;
+}
+  
+.otro-text {
+    font-family: QuicksandVariable;
+    font-weight: 1000;
+    font-size: 1.2vw;
+    margin: 0 0 1% 0;
+}
+
+.explicacion-text {
+    font-size: 1vw;
+    font-family: QuicksandVariable;
+    font-weight: 600;
+}
+
+#message {
+    width: 98%;
+    min-height: 9.6vw;
+    max-height: 4vw;
+    resize: vertical;      
+}
+
+.cont-log-cont {
+    width: calc(var(--bs-gutter-x) * 6);
+}

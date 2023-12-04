@@ -20,3 +20,7 @@
       -webkit-text-fill-color: transparent;
     }
   }
+
+  .starsFontSize {
+    font-size: 1.5vw;
+  }

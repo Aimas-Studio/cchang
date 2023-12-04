@@ -1,6 +1,6 @@
 import "../css/dynamic-rating.css";
 
-function DynamicRating({ image, text, day, month, year, rating, number }) {
+function DynamicRating({ number }) {
   return (
     <div className="dynamic-rating-container">
         <div class="star-rating">
@@ -15,6 +15,9 @@ function DynamicRating({ image, text, day, month, year, rating, number }) {
         <input type="radio" id="1-star" name="rating" value="1" />
         <label for="1-star" class="star">&#9733;</label>
         </div>
+        <p className="medium-number">
+            ({number})
+        </p>
     </div>
 );
 }
