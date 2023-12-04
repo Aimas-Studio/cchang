@@ -12,7 +12,7 @@ function ServiciosContainer() {
       
       <div className='project-contacto-container'>
         <ProjectCard
-          image={require(`../images/constructor.png`)}
+          image='constructor'
           text='Remodelación de las oficinas comerciales de Nissan en Cuba'
           day='21'
           month='03'

@@ -1,4 +1,5 @@
 import "../css/underlined-navbar.css";
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 
 
@@ -12,22 +13,22 @@ function UnderlinedNavBar() {
 
   return (
     <nav className="nav main-nav">
-      <a
+      <Link
         className={`nav-link ${
           activeLink === "SOBRE LA EMPRESA" ? "active" : ""
         }`}
-        href="#"
+        to='/'
         onClick={handleClick}
       >
         SOBRE LA EMPRESA
-      </a>
-      <a
+      </Link>
+      <Link
         className={`nav-link ${activeLink === "PROYECTOS" ? "active" : ""}`}
-        href="#"
+        to="/Proyectos"
         onClick={handleClick}
       >
         PROYECTOS
-      </a>
+      </Link>
     </nav>
   );
 }

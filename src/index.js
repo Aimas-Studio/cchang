@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Router>
     <Routes>
-      <Route path='/' Component={Detalles}/>
+      <Route path='/' Component={Inicio}/>
       <Route path='/Proyectos' Component={Proyectos} />
       <Route path='/Detalles' Component={Detalles}/>
     </Routes>
