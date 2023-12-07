@@ -1,0 +1,23 @@
+@media screen and (max-width: 601px) {
+    .mobile-logo-nav-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        position:absolute;
+        top: 23vw;
+        margin-left: 3%;
+    }
+    .cchang-logo {
+        width: 32%;
+    }
+    .nav-link {
+        padding-right: 0;
+    }
+    .nav {
+        flex-wrap: nowrap;
+    }
+    .main-nav {
+        width: -webkit-fill-available;
+    }
+  }

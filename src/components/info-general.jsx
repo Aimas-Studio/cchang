@@ -17,7 +17,6 @@ function InfoGeneral() {
             setShowing(false);
             arrow.style.display = "block";
             close.style.display = "none";
-            inft.classList.add("w-133");
         } 
         else {
             // mostrar arrow
@@ -25,7 +24,6 @@ function InfoGeneral() {
             setShowing(true);
             arrow.style.display = "none";
             close.style.display = "block";
-            inft.classList.remove("w-133");
         }
     }
 

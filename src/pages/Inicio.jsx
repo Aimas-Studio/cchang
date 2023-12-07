@@ -39,6 +39,9 @@ function Inicio() {
         </div>
         {/* MOBILE VERSION */}
 
+        <UnderlinedNavBar
+          setActive='empresa'
+        />
         <InfoGeneral />
         <div className="desktop-hidden">
           <ServiceCardsColumn />
@@ -56,10 +59,10 @@ function Inicio() {
 
           <Contacto
             contW='cont-container-w1' />
-            <div id="">
-              <textarea id = 'message-mob' className="message" placeholder=""/>
-              <button className="site-button">ENVIAR MENSAJE</button>
-            </div>
+          <div id="">
+            <textarea id='message-mob' className="message" placeholder="" />
+            <button className="site-button">ENVIAR MENSAJE</button>
+          </div>
         </div>
       </div>
     </div>

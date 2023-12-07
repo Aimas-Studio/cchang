@@ -25,3 +25,30 @@
     max-height: 4vw;
     resize: vertical;  
 }
+
+
+@media screen and (max-width: 600px) {
+    .mobile-hidden {
+      display: none;
+    }
+    .hidden-desktop-text {
+        font-family: QuicksandBold;
+        font-size: 5vw;
+        margin-top: 15%;
+    }
+    .cat-image-container {
+        justify-content: flex-start;
+        width: 80%;
+        flex-wrap: nowrap;
+        margin-bottom: 7%;
+    }
+    .categ-image {
+        width: calc(var(--bs-nav-link-padding-y) + 12vw);
+        margin-left: 0;
+        margin-right: 7%;
+    }
+    .ver-mas-button-grey {
+        font-size: 4vw;
+        margin-bottom: 15%;
+    }
+  }

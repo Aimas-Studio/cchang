@@ -18,7 +18,7 @@
 
 /* MOBILE VERSION ADJUSTS */
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 600px) {
     .service-cards-column-container {
         width: 100%;
     }
@@ -67,5 +67,13 @@
         border-width: 2px;
         border-radius: 15px;
         margin-bottom: 5%;
+    }
+
+    .nav-link {
+        font-size: 3vw;
+    }
+
+    .mobile-hidden {
+        display: none;
     }
 }
