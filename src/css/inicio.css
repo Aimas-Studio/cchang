@@ -15,3 +15,57 @@
     width: 54%;
     flex: 0 0 auto;
 }
+
+/* MOBILE VERSION ADJUSTS */
+
+@media screen and (max-width: 601px) {
+    .service-cards-column-container {
+        width: 100%;
+    }
+    
+    .service-card-container {
+        height: 30vw;
+        margin: 4.5% 0;
+    }
+
+    .service-text {
+        font-size: 3.3vw;
+    }
+    .hidden-desktop-text {
+        font-family: QuicksandBold;
+        font-size: 5vw;
+        margin-top: 15%;
+    }
+
+    .project-text{
+        font-size: 3.2vw;
+    }
+
+    .footer-date {
+        font-size: 3vw;
+    }
+    .small-number {
+        font-size: 2vw;
+    }
+    .site-button {
+        font-size: 3.6vw;
+        padding: 1.5% 7%;
+    }
+    .contacto-text {
+        font-size: 5vw;
+        margin-top: 5%;
+    }
+    .logos {
+        width: 12vw;
+    }
+    .cont-container-w1{
+        width: 55%;
+    }
+    #message-mob {
+        width: 100%;
+        height: 43vw;
+        border-width: 2px;
+        border-radius: 15px;
+        margin-bottom: 5%;
+    }
+}

@@ -6,7 +6,7 @@
 }
 
 .main-nav {
-    width: 65%;
+    width: auto;
 }
 
 .carousel-col {
@@ -19,11 +19,9 @@
 }
 
 
-#message {
-    border-radius: 10px;
-    border-color: #70707088;
-    border-width: 1px;
-    background-color: transparent;
-    margin-top: 7%;
-    margin-bottom: 1%;
+#message-p {
+    width: 70%;
+    min-height: 9.6vw;
+    max-height: 4vw;
+    resize: vertical;  
 }

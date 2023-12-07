@@ -57,6 +57,12 @@ code {
   margin: 1% 2.5% 4% 5%;
 }
 
+@media screen and (max-width: 601px) {
+  .all-pages-container {
+    margin:  1% 13% 4% 11.5%;
+  }
+}
+
 .flex {
   display: flex;
 }
@@ -89,7 +95,30 @@ a {
   width: 19%;
 }
 
-@media screen and (min-width: 501px) {
+.message {
+  border-radius: 10px;
+  border-color: #70707088;
+  border-width: 1px;
+  background-color: transparent;
+  margin-top: 7%;
+  margin-bottom: 1%;
+}
+
+.bot-0 {
+  margin-bottom: 0;
+}
+
+.d-none {
+  display: none;
+}
+
+@media screen and (min-width: 601px) {
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .mobile-hidden {
     display: none;
   }

@@ -15,7 +15,9 @@ function Proyectos() {
 
           {/* ----------- PRIMERA COLUMNA ------------*/}
           <div className="proyectos-col8">
-            <UnderlinedNavBar />
+            <UnderlinedNavBar
+              setActive='proyectos' 
+            />
             <ServicesButtons />
           </div>
 
@@ -29,9 +31,10 @@ function Proyectos() {
           </div>
           {/* ----------- SEGUNDA COLUMNA ------------*/}
           <div className="col-3 top4">
-            <Contacto />
+            <Contacto 
+            contW='cont-container-w2'/>
             <div id="">
-              <textarea id="message" placeholder="" cols="25" rows="5" />
+              <textarea id = 'message-p' className="message" placeholder="" cols="25" rows="5" />
               <button className="site-button">ENVIAR MENSAJE</button>
             </div>
           </div>

@@ -2,10 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    align-content: flex-start;
     justify-content: flex-start;
-    width: fit-content;
     margin: 2%;
+}
+
+.cont-container-w1 {
+    width: 66%;
+}
+
+.cont-container-w2{
+    width: 48%;
 }
 
 .contacto-text {
@@ -18,9 +24,14 @@
 .contacto-logos-container {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .logos {
     margin: 1% 2%;
     width: 3vw;
+}
+
+.logos:hover {
+    cursor: pointer;
 }

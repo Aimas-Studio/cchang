@@ -6,8 +6,16 @@
     display: none;
 }
 .swiper-button-next {
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: black;
+}
+
+.swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 0px);
+}
+
+.swiper-button-next::after {
+    font-size: 3vw;
 }
 
 .slide-item {
@@ -25,4 +33,11 @@
     font-family: QuicksandVariable;
     font-weight: 600;
     font-size: 1vw;
+    width: 100%;
+}
+
+
+.ver-mas-button-grey:hover {
+    cursor: pointer;
+    color: #615e5e;
 }

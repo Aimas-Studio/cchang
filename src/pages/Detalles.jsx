@@ -160,7 +160,7 @@ function Detalles() {
                 <ContactoContent/>
               </div>
               <div id="">
-                <textarea id="message" placeholder=""/>
+                <textarea id = 'message-d' className="message" placeholder=""/>
                 <button className="site-button">ENVIAR MENSAJE</button>
               </div>
             </div>

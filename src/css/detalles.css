@@ -14,9 +14,15 @@
 
 .arrow-title {
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     width: fit-content;
     cursor: pointer;
+    align-items: center;
+}
+
+.backArrowImage{
+    display: flex;
+    justify-content: center;
 }
 
 .back-text {
@@ -24,6 +30,7 @@
     text-decoration: none;
     font-family: QuicksandBold;
     font-size: 1.4vw;
+    margin-bottom: 0;
 }
 
 .arrow-image {
@@ -98,7 +105,7 @@
     font-weight: 600;
 }
 
-#message {
+#message-d {
     width: 98%;
     min-height: 9.6vw;
     max-height: 4vw;
@@ -106,5 +113,18 @@
 }
 
 .cont-log-cont {
-    width: calc(var(--bs-gutter-x) * 6);
+    width: 77%;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .row>.col>* {
+        padding-left: calc(var(--bs-gutter-x) * 3.8);
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .row>.col>* {
+        padding-left: calc(var(--bs-gutter-x) * 2.5);
+    } 
 }

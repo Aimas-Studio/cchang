@@ -15,6 +15,7 @@
 
 .site-button:hover{
     background-color: #929292c0;
+    cursor: pointer;
 }
 
 .short-button {

@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+.service-card-container:hover {
+    cursor: pointer;
+}
+
 .service-image-container {
     width: 30%;
     height: auto;

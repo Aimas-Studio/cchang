@@ -4,7 +4,7 @@ function BackMenu ()
 {
     return(
         <div className="back-menu-container">
-            <Link to='/' className="arrow-title">
+            <Link to='/Proyectos' className="arrow-title">
                 <div className="backArrowImage">
                     <img className="mobileHidden arrow-image" alt="logo" src={require(`../images/backArrow.png`)}/>
                 </div>

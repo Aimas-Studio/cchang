@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 601px) {
+    .info-general-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-icon {
+        width: 6%;
+        margin-left: 11%;
+    }
+
+    .info-title {
+        cursor: pointer;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center;  
+        border-bottom: solid;
+        border-color: #707070;
+        border-width: 1.5px;
+        padding-bottom: 2%;
+        width: 78%;
+    }
+
+    .arrow {
+        width: 8%;
+        display: none;
+    }
+
+    .w-133 {
+        width: 133%;
+    }
+
+    .onlytexto, .texto{
+        font-size: 4vw;
+    }
+
+    .header {
+        font-size: 5vw;
+        margin-top: 10%;
+    }
+  }

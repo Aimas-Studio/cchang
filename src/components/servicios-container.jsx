@@ -23,7 +23,8 @@ function ServiciosContainer() {
 
         <InfoButtons />
 
-        <Contacto />
+        <Contacto
+        contW='cont-container-w1' />
       </div>
     </div>
   );

@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation, Pagination } from "swiper/modules";
 import "../css/carousel.css";
+import { Link } from "react-router-dom";
 
 function Carousel() {
   const prevRef = useRef(null);
@@ -44,9 +45,11 @@ function Carousel() {
               ratingValue='5'
               number='24'
             />
-            <button className="ver-mas-button-grey">
-              VER MÁS
-            </button>
+            <Link to='/Detalles'>
+              <button className="ver-mas-button-grey">
+                VER MÁS 
+              </button>
+            </Link>
           </div>
         </SwiperSlide>
 
@@ -61,9 +64,11 @@ function Carousel() {
               ratingValue='5'
               number='24'
             />
-            <button className="ver-mas-button-grey">
-              VER MÁS
-            </button>
+            <Link to='/Detalles'>
+              <button className="ver-mas-button-grey">
+                VER MÁS 
+              </button>
+            </Link>
           </div>
         </SwiperSlide>
 
@@ -78,9 +83,11 @@ function Carousel() {
               ratingValue='5'
               number='24'
             />
-            <button className="ver-mas-button-grey">
-              VER MÁS
-            </button>
+            <Link to='/Detalles'>
+              <button className="ver-mas-button-grey">
+                VER MÁS 
+              </button>
+            </Link>
           </div>
         </SwiperSlide>
 
@@ -95,9 +102,11 @@ function Carousel() {
               ratingValue='5'
               number='24'
             />
-            <button className="ver-mas-button-grey">
-              VER MÁS
-            </button>
+            <Link to='/Detalles'>
+              <button className="ver-mas-button-grey">
+                VER MÁS 
+              </button>
+            </Link>
           </div>
         </SwiperSlide>
 
@@ -112,9 +121,11 @@ function Carousel() {
               ratingValue='5'
               number='24'
             />
-            <button className="ver-mas-button-grey">
-              VER MÁS
-            </button>
+            <Link to='/Detalles'>
+              <button className="ver-mas-button-grey">
+                VER MÁS 
+              </button>
+            </Link>
           </div>
         </SwiperSlide>
 
