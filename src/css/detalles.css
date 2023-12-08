@@ -128,3 +128,65 @@
         padding-left: calc(var(--bs-gutter-x) * 2.5);
     } 
 }
+
+@media screen and (max-width: 600px) {
+    .white-arrow-title {
+        display: flex;
+        position: absolute;
+        top: 8vw;
+        align-items: center;
+    }
+    .white-arrow-image {
+        margin-right: 25px;
+    }
+    .white-text {
+        color: white;
+        font-size: 3.5vw;
+        margin-bottom: 0;
+    }
+    .details-text {
+        font-size: 4.8vw;
+        margin-top: 27%;
+    }
+
+    .backmenu-container {
+        width: 100%;
+    }
+    .valoracion-text, .otro-text {
+        font-size: 4vw;
+    }
+    .starsFontSize {
+        font-size: 6vw;
+    }
+    .explicacion-text {
+        font-size: 3.7vw;
+        margin-top: 8%;
+        margin-bottom: 15%;
+    }
+
+    .containerimg {
+        margin-top: 5%;
+    }
+    
+    .califica-text {
+        margin-top: 28%;
+        font-size: 5vw;
+    }
+
+    .star-rating {
+        font-size: 9vw;
+        padding-left: 0;
+        justify-content: space-between;
+    }
+
+    .medium-number {
+        font-size: 4vw;
+    }
+
+    .dynamic-rating-container {
+        justify-content: flex-start;
+    }
+    .cont-container-w1 {
+        margin-top: 7%;
+    }
+}

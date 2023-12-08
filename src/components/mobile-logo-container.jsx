@@ -3,7 +3,7 @@ import UnderlinedNavBar from "../components/navbar";
 
 import '../css/mobile-logo-nav.css';
 
-function MobileLogoNav() {
+function MobileLogoNav({underlined}) {
     return (
 
         <div className="mobile-logo-nav-container desktop-hidden">
@@ -13,7 +13,7 @@ function MobileLogoNav() {
                 alt="Cchang main logo"
             />
             <UnderlinedNavBar
-                setActive='proyectos'
+                setActive={underlined}
             />
         </div>
     )

@@ -4,7 +4,7 @@ import ServiceCard from "./service-card";
 function ServiceCardsColumn() {
   return (
     <div className="service-cards-column-container">
-      <p className="hidden-desktop-text">SERVICIOS</p>
+      <p className="hidden-desktop-text desktop-hidden">SERVICIOS</p>
       <ServiceCard
         backgrColor="#2297FE"
         imagePath={require(`../images/electricidad.png`)}

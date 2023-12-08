@@ -13,7 +13,9 @@ function Proyectos() {
   return (
     <div className="proyectos-page-container">
       <ImageHeader />
-      <MobileLogoNav/>
+      <MobileLogoNav 
+        underlined='proyectos'
+      />
       <div className="all-pages-container">
         <div className="columns-container mobile-hidden">
 
@@ -46,7 +48,7 @@ function Proyectos() {
         </div>
 
         {/* MOBILE VERSION IMPLEMENTATION */}
-        <div className="desktop-hidden">
+        <div className="desktop-hidden" style={{marginTop: 25+'%'}}>
           <p className="bot-0 hidden-desktop-text">PROYECTOS</p>
           <ServicesButtons />
 

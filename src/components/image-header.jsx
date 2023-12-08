@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/image-header.css';
 
-function ImageHeader() {
+function ImageHeader({detalles}) {
   return (
 
     <div className='main-header-image-container'>

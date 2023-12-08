@@ -14,10 +14,12 @@
     .nav-link {
         padding-right: 0;
     }
-    .nav {
-        flex-wrap: nowrap;
-    }
+    
     .main-nav {
         width: -webkit-fill-available;
+        margin-top: 5%;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        margin-right: 5%;
     }
   }

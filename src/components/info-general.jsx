@@ -4,7 +4,6 @@ import "../css/info-general.css";
 
 function InfoGeneral() {
     const [showing, setShowing] = useState(true);
-    console.log(showing);
     function showInfo() {
         const arrow = document.getElementById("arrow");
         const close = document.getElementById("close");

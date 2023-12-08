@@ -18,7 +18,6 @@ function Carousel() {
       swiperRef.current.swiper.params.navigation.prevEl = prevRef.current;
       swiperRef.current.swiper.params.navigation.nextEl = nextRef.current;
       swiperRef.current.swiper.navigation.update();
-      console.log("los")
     }
   }, []);
 
@@ -29,7 +28,7 @@ function Carousel() {
         navigation={true}
         pagination={{ clickable: true }}
         modules={[Navigation]}
-        spaceBetween={25}
+        spaceBetween={20}
         loop={true}
         className="flex clearfix"
         ref={swiperRef}

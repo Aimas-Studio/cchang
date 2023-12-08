@@ -8,12 +8,16 @@ import ServiceCardsColumn from "../components/service-cards-column";
 import ProjectCard from "../components/project-card";
 import Contacto from "../components/contacto";
 import InfoButtons from "../components/info-buttons";
+import MobileLogoNav from "../components/mobile-logo-container";
 import "../css/inicio.css";
 
 function Inicio() {
   return (
     <div className="inicio-page-container">
       <ImageHeader />
+      <MobileLogoNav
+        underlined='empresa'
+      />
       <div className="all-pages-container">
         <div className="columns-container">
 
@@ -39,11 +43,10 @@ function Inicio() {
         </div>
         {/* MOBILE VERSION */}
 
-        <UnderlinedNavBar
-          setActive='empresa'
-        />
+          
+        <div className="desktop-hidden" style={{marginTop: 25+'%'}}>
+        
         <InfoGeneral />
-        <div className="desktop-hidden">
           <ServiceCardsColumn />
           <p className="hidden-desktop-text">PROYECTOS</p>
           <ProjectCard

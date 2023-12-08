@@ -6,7 +6,7 @@
 }
 
 .main-nav {
-    width: auto;
+    width: -webkit-fill-available;
 }
 
 .carousel-col {
@@ -51,4 +51,5 @@
         font-size: 4vw;
         margin-bottom: 15%;
     }
+
   }

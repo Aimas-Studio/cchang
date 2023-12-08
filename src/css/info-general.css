@@ -33,11 +33,14 @@
     }
 
     .onlytexto, .texto{
-        font-size: 4vw;
+        font-size: 3.8vw;
     }
 
     .header {
-        font-size: 5vw;
+        font-size: 4.8vw;
         margin-top: 10%;
+    }
+    .info-gen-text {
+        font-size: 4vw;
     }
   }
