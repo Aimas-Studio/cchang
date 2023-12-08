@@ -1,12 +1,12 @@
 import { React, useRef, useEffect } from "react";
 import ProjectCard from './project-card';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
+import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Navigation, Pagination } from "swiper/modules";
 import "../css/carousel.css";
-import { Link } from "react-router-dom";
 
 function Carousel() {
   const prevRef = useRef(null);
