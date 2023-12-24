@@ -41,3 +41,8 @@
     background: #0907cb;
     width: 140%;
 }
+
+.nav-link-blue:hover {
+    cursor: default;
+    color: black;
+}

@@ -11,15 +11,13 @@ function UnderlinedSingleNavBar() {
 
   return (
     <nav className="nav">
-      <a
+      <p
         className={`nav-link nav-link-blue ${
           activeLink === "SERVICIOS" ? "active" : ""
         }`}
-        href="#"
-        onClick={handleClick}
       >
         SERVICIOS
-      </a>
+      </p>
     </nav>
   );
 }

@@ -15,7 +15,10 @@
 .categ-image {
     width: calc(var(--bs-nav-link-padding-y) + 2* 1.3vw);
     margin-left: 4%;
+}
 
+.categ-image:hover {
+    cursor: pointer;
 }
 .cat-image-container {
     display: flex;
