@@ -19,7 +19,7 @@ function UnderlinedNavBar( { setActive } ) {
       <Link
         className={`nav-link ${setActive === "proyectos" ? "active" : ""}`}
         to="/Proyectos"
-        
+        style = {{'marginLeft': `${setActive === "proyectos" ? '3px' : '0px'}`}}
       >
         PROYECTOS
       </Link>

@@ -28,7 +28,7 @@ function Carousel() {
         navigation={true}
         pagination={{ clickable: true }}
         modules={[Navigation]}
-        spaceBetween={20}
+        spaceBetween={50}
         loop={true}
         className="flex clearfix"
         ref={swiperRef}

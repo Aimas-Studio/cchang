@@ -18,6 +18,10 @@
     font-size: 3vw;
 }
 
+.swiper {
+    padding-right: 4%;
+}
+
 .slide-item {
     display: flex;
     flex-direction: column;
